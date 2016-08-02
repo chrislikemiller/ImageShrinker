@@ -1,0 +1,17 @@
+﻿<Application x:Class="ImageShrinker.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:common="clr-namespace:ImageShrinker.Common"
+             StartupUri="View/MainWindow.xaml">
+    <Application.Resources>
+        <common:IncreaseWidthConverter x:Key="IncreaseWidthConverter"/>
+
+        <Style x:Key="OpacityStyle"  TargetType="Image">
+            <Style.Triggers>
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Opacity" Value="0.3" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Application.Resources>
+</Application>

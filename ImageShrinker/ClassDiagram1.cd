@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="ImageShrinker.App" Collapsed="true">
+    <Position X="18" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageShrinker.MainWindow" Collapsed="true">
+    <Position X="18" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageShrinker.Common.IncreaseWidthConverter" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\IncreaseWidthConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.287" Collapsed="true" />
+  </Class>
+  <Class Name="ImageShrinker.DialogService.MainDialogService" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAgAAA=</HashCode>
+      <FileName>DialogService\MainDialogService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ImageShrinker.Factories.ShrinkableImageFactory" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="3.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Factories\ShrinkableImageFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ImageShrinker.Model.ShrinkableImage">
+    <Position X="7.75" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAEAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Model\ShrinkableImage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ImageShrinker.Properties.Resources" Collapsed="true">
+    <Position X="18" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageShrinker.Properties.Settings" Collapsed="true">
+    <Position X="18" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageShrinker.View.ResizeSettingControl">
+    <Position X="6.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\ResizeSettingControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageShrinker.ViewModel.ViewModelBase">
+    <Position X="5.25" Y="9.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAQAQgAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ImageShrinker.Common.Event&lt;T&gt;">
+    <Position X="5" Y="7" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAACBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Event.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageShrinker.Common.Event">
+    <Position X="7.75" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAACBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Event.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageShrinker.Common.RelayCommand&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="11" Y="6" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ImageShrinker.Common.RelayCommand" BaseTypeListCollapsed="true">
+    <Position X="14" Y="6" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ShrinkerService">
+    <Position X="0.5" Y="3" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAEAAAQAAIAAAAAAJAwCCEIQgFIA=</HashCode>
+      <FileName>Common\ShrinkerService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainViewModel">
+    <Position X="1" Y="9.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>QQASAQAEBCAWggBAk4BAICgQQJAAAJQAAgIgIQUgBAI=</HashCode>
+      <FileName>ViewModel\MainViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ImageShrinker.DialogService.IDialogService">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAgAAA=</HashCode>
+      <FileName>DialogService\IDialogService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ImageShrinker.Factories.IShrinkableImageFactory">
+    <Position X="10.25" Y="1.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Factories\IShrinkableImageFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ImageShrinker.Model.IShrinkableImage">
+    <Position X="5.25" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAEAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Model\IShrinkableImage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
